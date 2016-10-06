@@ -3,7 +3,7 @@ package net.ivanlopez;
 import java.util.Scanner;
 
 public class App {
-
+//Prova de conflicte repositori local
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner lector = new Scanner(System.in);
@@ -16,6 +16,7 @@ public class App {
     	   if(num < num_petit){
     		   num_p = num;
     	   }
+
             System.out.println("El numero mas pequeño es: " + num_p);
         }
 
