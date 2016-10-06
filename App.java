@@ -8,9 +8,9 @@ public class App {
 		// TODO Auto-generated method stub
 		Scanner lector = new Scanner(System.in);
 
-        System.out.println("Escribe 5 numeros");
+        System.out.println("Escribe 10 numeros");
         int num_p = 0;
-       for(int i = 0; i < 5;i++){
+       for(int i = 0; i < 10;i++){
     	   int num = lector.nextInt();
     	   int num_petit = num;
     	   if(num < num_petit){
